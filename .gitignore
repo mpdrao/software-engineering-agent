@@ -1,0 +1,14 @@
+# Obsidian runtime & cache
+.obsidian/workspace*
+.obsidian/cache/
+.obsidian/indexed*
+BRAIN/.obsidian/workspace*
+BRAIN/.obsidian/cache/
+BRAIN/.obsidian/indexed*
+
+# OS / System
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.log
