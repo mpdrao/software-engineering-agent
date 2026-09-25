@@ -23,8 +23,8 @@ A skill **sdd** audita, valida e garante a rastreabilidade bidirecional estrita 
 ---
 
 ## 4. Required Context
-* Regras de precedência do projeto ([context-loading.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/context-loading.md)).
-* Padrões de especificação ([TEMPLATES/specification.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/specification.md) e [TEMPLATES/requirement.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/requirement.md)).
+* Regras de precedência do projeto ([context-loading.md](../../AGENT/context-loading.md)).
+* Padrões de especificação ([TEMPLATES/specification.md](../../TEMPLATES/specification.md) e [TEMPLATES/requirement.md](../../TEMPLATES/requirement.md)).
 
 ---
 

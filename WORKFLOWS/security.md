@@ -8,8 +8,8 @@ Executar auditoria estática especializada de segurança (SAST) em componentes d
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/security](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/security/SKILL.md)
-* [SKILLS/code-review](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/code-review/SKILL.md)
+* [SKILLS/security](../SKILLS/security/SKILL.md)
+* [SKILLS/code-review](../SKILLS/code-review/SKILL.md)
 
 ---
 

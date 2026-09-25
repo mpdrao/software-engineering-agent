@@ -22,7 +22,7 @@ A skill **testing** audita a qualidade, determinismo, eficácia e cobertura da e
 ---
 
 ## 4. Required Context
-* [AGENT/system.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/system.md) (Testabilidade como princípio inegociável).
+* [AGENT/system.md](../../AGENT/system.md) (Testabilidade como princípio inegociável).
 * Diretrizes em `BRAIN/05-TESTING/`.
 
 ---

@@ -24,8 +24,8 @@ A skill **architecture** avalia a integridade estrutural de sistemas de software
 ---
 
 ## 4. Required Context
-* [AGENT/decision-making.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/decision-making.md) (Regras anti-overengineering e trade-offs).
-* [TEMPLATES/architecture.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/architecture.md) e [TEMPLATES/adr.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/adr.md).
+* [AGENT/decision-making.md](../../AGENT/decision-making.md) (Regras anti-overengineering e trade-offs).
+* [TEMPLATES/architecture.md](../../TEMPLATES/architecture.md) e [TEMPLATES/adr.md](../../TEMPLATES/adr.md).
 * Conhecimento persistido em `BRAIN/02-ARCHITECTURE/`.
 
 ---

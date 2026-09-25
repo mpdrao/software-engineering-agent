@@ -8,8 +8,8 @@ Identificar potenciais gargalos de processamento, ineficiências de complexidade
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/code-review](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/code-review/SKILL.md)
-* [SKILLS/clean-code](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/clean-code/SKILL.md)
+* [SKILLS/code-review](../SKILLS/code-review/SKILL.md)
+* [SKILLS/clean-code](../SKILLS/clean-code/SKILL.md)
 
 ---
 

@@ -11,13 +11,13 @@ Executar a auditoria técnica exaustiva de um repositório, projeto ou sistema d
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/sdd](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/sdd/SKILL.md)
-* [SKILLS/architecture](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/architecture/SKILL.md)
-* [SKILLS/code-review](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/code-review/SKILL.md)
-* [SKILLS/clean-code](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/clean-code/SKILL.md)
-* [SKILLS/solid](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/solid/SKILL.md)
-* [SKILLS/security](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/security/SKILL.md)
-* [SKILLS/testing](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/testing/SKILL.md)
+* [SKILLS/sdd](../SKILLS/sdd/SKILL.md)
+* [SKILLS/architecture](../SKILLS/architecture/SKILL.md)
+* [SKILLS/code-review](../SKILLS/code-review/SKILL.md)
+* [SKILLS/clean-code](../SKILLS/clean-code/SKILL.md)
+* [SKILLS/solid](../SKILLS/solid/SKILL.md)
+* [SKILLS/security](../SKILLS/security/SKILL.md)
+* [SKILLS/testing](../SKILLS/testing/SKILL.md)
 
 ---
 
@@ -103,7 +103,7 @@ flowchart TD
 ---
 
 ## 5. Formato da Saída
-Relatório executivo estruturado segundo [TEMPLATES/audit-report.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/audit-report.md):
+Relatório executivo estruturado segundo [TEMPLATES/audit-report.md](../TEMPLATES/audit-report.md):
 * **Context**: Metadados da auditoria e escopo.
 * **Findings**: Todos os apontamentos categorizados (ID, Severity, Location, Problem, Evidence, Impact, Recommendation).
 * **Architecture**: Visão estrutural consolidada.

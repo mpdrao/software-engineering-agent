@@ -6,7 +6,7 @@
 * **Nome**: Margem.AI (Assistente Financeiro e Precificação para MEI)
 * **Domínio de Negócio**: Gestão Financeira, Precificação SEBRAE e Fluxo de Caixa para MEIs
 * **Tech Stack Principal**: Java 21, Spring Boot 3.4.2, Spring Data JPA, Spring Security, PostgreSQL 16, React 19, Vite, Tailwind CSS v4
-* **Repositório Git**: `C:\Users\mario\OneDrive\Área de Trabalho\Estudos_IFSP\margemAI`
+* **Repositório Git**: `${PROJECTS_ROOT_PATH}/margemAI` (ou `../margemAI`)
 * **Ambiente Principal**: Cloud (Produção Trunk-Based via GitHub Actions)
 
 ---

@@ -22,7 +22,7 @@ A skill **code-review** realiza revisões técnicas rigorosas em trechos de cód
 ---
 
 ## 4. Required Context
-* [AGENT/behavior.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/behavior.md) (Abordagem de fatos vs. hipóteses, preservação de contexto).
+* [AGENT/behavior.md](../../AGENT/behavior.md) (Abordagem de fatos vs. hipóteses, preservação de contexto).
 * Diretrizes em `BRAIN/03-CODE-QUALITY/`.
 * Matriz de severidade em `QUALITY-GATES/severity.md`.
 

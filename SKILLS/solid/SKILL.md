@@ -21,7 +21,7 @@ A skill **solid** audita o design orientado a objetos avaliando a aplicação pr
 ---
 
 ## 4. Required Context
-* [AGENT/decision-making.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/decision-making.md) (Evitar criação indiscriminada de interfaces desnecessárias).
+* [AGENT/decision-making.md](../../AGENT/decision-making.md) (Evitar criação indiscriminada de interfaces desnecessárias).
 * Diretrizes em `BRAIN/03-CODE-QUALITY/`.
 
 ---

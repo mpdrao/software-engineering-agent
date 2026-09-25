@@ -8,10 +8,10 @@ Executar ou orientar a refatoração segura de código legado ou com dívida té
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/clean-code](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/clean-code/SKILL.md)
-* [SKILLS/solid](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/solid/SKILL.md)
-* [SKILLS/testing](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/testing/SKILL.md)
-* [SKILLS/code-review](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/code-review/SKILL.md)
+* [SKILLS/clean-code](../SKILLS/clean-code/SKILL.md)
+* [SKILLS/solid](../SKILLS/solid/SKILL.md)
+* [SKILLS/testing](../SKILLS/testing/SKILL.md)
+* [SKILLS/code-review](../SKILLS/code-review/SKILL.md)
 
 ---
 

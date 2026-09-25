@@ -8,8 +8,8 @@ Projetar, avaliar ou documentar a arquitetura técnica de um sistema, módulo ou
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/architecture](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/architecture/SKILL.md)
-* [SKILLS/security](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/security/SKILL.md)
+* [SKILLS/architecture](../SKILLS/architecture/SKILL.md)
+* [SKILLS/security](../SKILLS/security/SKILL.md)
 
 ---
 
@@ -24,7 +24,7 @@ Projetar, avaliar ou documentar a arquitetura técnica de um sistema, módulo ou
 ## 4. Sequência de Análise
 1. **Definição de Requisitos Não-Funcionais**: Clarificar SLAs, volumetria, latência esperada, limites de segurança e tolerância a falhas.
 2. **Avaliação Anti-Overengineering (Filtro de 5 Perguntas)**:
-   * Responder estritamente às 5 perguntas de [AGENT/decision-making.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/decision-making.md).
+   * Responder estritamente às 5 perguntas de [AGENT/decision-making.md](../AGENT/decision-making.md).
    * Descartar soluções hiper-complexas prematuras (microservices desnecessários, CQRS forçado).
 3. **Modelagem de Limites & Componentes**:
    * Elaborar diagramas C4 (Contexto e Containers) via Mermaid.
@@ -37,8 +37,8 @@ Projetar, avaliar ou documentar a arquitetura técnica de um sistema, módulo ou
 ---
 
 ## 5. Formato da Saída
-* Documento de arquitetura seguindo [TEMPLATES/architecture.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/architecture.md).
-* ADR seguindo [TEMPLATES/adr.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/adr.md).
+* Documento de arquitetura seguindo [TEMPLATES/architecture.md](../TEMPLATES/architecture.md).
+* ADR seguindo [TEMPLATES/adr.md](../TEMPLATES/adr.md).
 
 ---
 

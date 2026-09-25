@@ -8,10 +8,10 @@ Executar uma análise técnica investigativa profunda sob demanda sobre um módu
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/architecture](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/architecture/SKILL.md)
-* [SKILLS/code-review](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/code-review/SKILL.md)
-* [SKILLS/clean-code](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/clean-code/SKILL.md)
-* [SKILLS/solid](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/solid/SKILL.md)
+* [SKILLS/architecture](../SKILLS/architecture/SKILL.md)
+* [SKILLS/code-review](../SKILLS/code-review/SKILL.md)
+* [SKILLS/clean-code](../SKILLS/clean-code/SKILL.md)
+* [SKILLS/solid](../SKILLS/solid/SKILL.md)
 
 ---
 

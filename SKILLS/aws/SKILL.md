@@ -21,7 +21,7 @@ A skill **aws** audita e orienta o design de arquiteturas na nuvem **Amazon Web 
 ---
 
 ## 4. Required Context
-* [SKILLS/architecture](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/architecture/SKILL.md) e [SKILLS/security](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/security/SKILL.md).
+* [SKILLS/architecture](../architecture/SKILL.md) e [SKILLS/security](../security/SKILL.md).
 * Padrões em `BRAIN/07-STACK/`.
 
 ---

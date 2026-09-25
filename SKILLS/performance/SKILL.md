@@ -22,7 +22,7 @@ A skill **performance** diagnostica ineficiências de processamento, complexidad
 ---
 
 ## 4. Required Context
-* [AGENT/behavior.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/behavior.md) (Distinguir evidência comprovada de hipótese de lentidão).
+* [AGENT/behavior.md](../../AGENT/behavior.md) (Distinguir evidência comprovada de hipótese de lentidão).
 * Diretrizes em `BRAIN/06-PERFORMANCE/`.
 
 ---

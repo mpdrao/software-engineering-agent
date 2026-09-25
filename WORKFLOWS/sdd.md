@@ -8,9 +8,9 @@ Executar a verificação formal de conformidade entre a especificação funciona
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/sdd](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/sdd/SKILL.md)
-* [SKILLS/testing](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/testing/SKILL.md)
-* [SKILLS/architecture](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/architecture/SKILL.md)
+* [SKILLS/sdd](../SKILLS/sdd/SKILL.md)
+* [SKILLS/testing](../SKILLS/testing/SKILL.md)
+* [SKILLS/architecture](../SKILLS/architecture/SKILL.md)
 
 ---
 

@@ -22,7 +22,7 @@ A skill **java-spring** audita e orienta o desenvolvimento idiomático, robusto 
 ---
 
 ## 4. Required Context
-* [SKILLS/clean-code](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/clean-code/SKILL.md) e [SKILLS/solid](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/solid/SKILL.md).
+* [SKILLS/clean-code](../clean-code/SKILL.md) e [SKILLS/solid](../solid/SKILL.md).
 * Padrões em `BRAIN/07-STACK/`.
 
 ---

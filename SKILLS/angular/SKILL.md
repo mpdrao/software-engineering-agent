@@ -22,7 +22,7 @@ A skill **angular** audita e orienta a construção de SPAs robustas utilizando 
 ---
 
 ## 4. Required Context
-* [SKILLS/clean-code](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/clean-code/SKILL.md).
+* [SKILLS/clean-code](../clean-code/SKILL.md).
 * Padrões em `BRAIN/07-STACK/`.
 
 ---

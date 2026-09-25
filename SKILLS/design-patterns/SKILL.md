@@ -21,8 +21,8 @@ A skill **design-patterns** orienta a seleção, implementação e auditoria de 
 ---
 
 ## 4. Required Context
-* [AGENT/decision-making.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/decision-making.md) (Regras anti-overengineering e filtro de 5 perguntas).
-* Modelos em [TEMPLATES/pattern.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/pattern.md) e [TEMPLATES/anti-pattern.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/TEMPLATES/anti-pattern.md).
+* [AGENT/decision-making.md](../../AGENT/decision-making.md) (Regras anti-overengineering e filtro de 5 perguntas).
+* Modelos em [TEMPLATES/pattern.md](../../TEMPLATES/pattern.md) e [TEMPLATES/anti-pattern.md](../../TEMPLATES/anti-pattern.md).
 * Conhecimento em `BRAIN/08-PATTERNS/`.
 
 ---

@@ -22,7 +22,7 @@ A skill **devops** avalia a automação de compilação, testes contínuos, empa
 ---
 
 ## 4. Required Context
-* [AGENT/system.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/system.md) (Observabilidade como princípio inegociável).
+* [AGENT/system.md](../../AGENT/system.md) (Observabilidade como princípio inegociável).
 * Diretrizes em `BRAIN/07-STACK/`.
 
 ---

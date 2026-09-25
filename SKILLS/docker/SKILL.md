@@ -21,7 +21,7 @@ A skill **docker** audita e otimiza a criação de imagens de container, arquivo
 ---
 
 ## 4. Required Context
-* [SKILLS/security](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/security/SKILL.md) (Menor privilégio em containers).
+* [SKILLS/security](../security/SKILL.md) (Menor privilégio em containers).
 * Diretrizes em `BRAIN/07-STACK/`.
 
 ---

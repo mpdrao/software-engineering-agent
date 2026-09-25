@@ -34,7 +34,7 @@ Executa a varredura exaustiva em **15 etapas sequenciais** cobrindo arquitetura,
   * `persist_inbox` *(Padrão: `true`)*: Se ativado, gera automaticamente notas de aprendizado em `BRAIN/99-INBOX/` no Obsidian.
 * **Exemplos de Prompt:**
   ```text
-  Execute o workflow /audit no projeto C:\Users\mario\OneDrive\Projetos\meu-sistema
+  Execute o workflow /audit no projeto C:\Projetos\meu-sistema
   ```
   ```text
   Execute o workflow /audit na pasta atual registrando o contexto como "margemAI"

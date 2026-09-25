@@ -21,7 +21,7 @@ A skill **clean-code** audita a legibilidade intrínseca, clareza semântica, n�
 ---
 
 ## 4. Required Context
-* [AGENT/decision-making.md](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/AGENT/decision-making.md) (Simplicidade acima de sofisticação).
+* [AGENT/decision-making.md](../../AGENT/decision-making.md) (Simplicidade acima de sofisticação).
 * Padrões em `BRAIN/03-CODE-QUALITY/`.
 
 ---

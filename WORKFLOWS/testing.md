@@ -8,8 +8,8 @@ Avaliar a maturidade, determinismo, cobertura semântica e eficácia da suíte d
 ---
 
 ## 2. Skills Utilizadas
-* [SKILLS/testing](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/testing/SKILL.md)
-* [SKILLS/sdd](file:///C:/Users/mario/OneDrive/Área%20de%20Trabalho/agente-gemini/projetos/software-engineering-agent/SKILLS/sdd/SKILL.md)
+* [SKILLS/testing](../SKILLS/testing/SKILL.md)
+* [SKILLS/sdd](../SKILLS/sdd/SKILL.md)
 
 ---
 

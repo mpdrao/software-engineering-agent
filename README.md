@@ -1,7 +1,7 @@
 # Software Engineering Operating System (SE-OS)
 
 > **Autonomous Virtual Tech Lead & Software Engineering Agent**  
-> Infraestrutura de Engenharia de Software baseada em **Gemini CLI / Antigravity (`agy`)** integrada com cérebro em Markdown interoperável com o **Obsidian** (Cofre `descomplicaAI`).
+> Infraestrutura de Engenharia de Software baseada em **Gemini CLI / Antigravity (`agy`)** integrada com cérebro em Markdown interoperável com o **Obsidian**.
 
 ---
 
@@ -57,13 +57,51 @@ O sistema é estritamente modular e desacoplado:
 
 ---
 
-## 3. Estrutura de Diretórios
+## 3. Configuração Dinâmica do Ambiente (Quickstart)
+
+O SE-OS suporta parametrização dinâmica de pastas através de variáveis de ambiente e scripts automatizados multiplataforma:
+
+### Passo 1: Definir Variáveis de Ambiente
+Copie o arquivo de exemplo:
+```bash
+cp .env.example .env
+```
+Edite o arquivo `.env` inserindo o caminho do seu cofre do Obsidian:
+```properties
+OBSIDIAN_VAULT_PATH=C:/Caminho/Para/Seu/Cofre
+PROJECTS_ROOT_PATH=C:/Projetos
+```
+
+### Passo 2: Conectar o Cérebro (BRAIN) ao Obsidian
+Execute o script correspondente ao seu sistema operacional:
+
+* **No Windows (PowerShell):**
+  ```powershell
+  .\scripts\setup-brain.ps1 -VaultPath "C:\Caminho\Para\Seu\Cofre"
+  ```
+* **No Linux / macOS / WSL (Bash):**
+  ```bash
+  chmod +x ./scripts/setup-brain.sh
+  ./scripts/setup-brain.sh ~/meu-cofre-obsidian
+  ```
+
+O script cria uma junção NTFS / link simbólico conectando `BRAIN/` ao seu cofre sem duplicar arquivos.
+
+---
+
+## 4. Estrutura de Diretórios
 
 ```text
 software-engineering-agent/
 │
 ├── README.md                      # Este manual executivo
 ├── AGENT.md                       # Ponto de entrada do Agent Core
+├── SELF-AUDIT-REPORT.md           # Relatório de autovalidação da infraestrutura
+├── .env.example                   # Modelo de parametrização dinâmica
+│
+├── scripts/                       # Scripts de automação multiplataforma
+│   ├── setup-brain.ps1            # Conexão dinâmica no Windows (NTFS Junction)
+│   └── setup-brain.sh             # Conexão dinâmica no Linux/macOS (Symlink)
 │
 ├── AGENT/                         # Governança e Cognição do Agente
 │   ├── system.md                  # Identidade, papéis e princípios inegociáveis
@@ -72,7 +110,7 @@ software-engineering-agent/
 │   ├── context-loading.md         # Precedência estrita de contexto
 │   └── knowledge-management.md   # Ciclo de vida Candidate -> Validated -> Standard
 │
-├── BRAIN/                         # Junção NTFS -> C:\Users\mario\descomplicaAI\descompliaAI
+├── BRAIN/                         # Conectado dinamicamente ao seu cofre do Obsidian
 │   ├── 00-CORE/                   # Princípios e metodologia SDD
 │   ├── 01-SDD/                    # Especificações globais
 │   ├── 02-ARCHITECTURE/           # Estilos e padrões arquiteturais globais
@@ -86,16 +124,26 @@ software-engineering-agent/
 │   ├── 10-LEARNINGS/              # Post-mortems e lições de incidentes
 │   └── 99-INBOX/                  # Capturas brutas e hipóteses (Candidate)
 │
-├── SKILLS/                        # Habilidades Especializadas Autônomas
+├── SKILLS/                        # 16 Habilidades Especializadas Autônomas
 │   ├── sdd/SKILL.md               # Rastreabilidade Requisito -> Código -> Teste
 │   ├── architecture/SKILL.md      # Limites, acoplamento, coesão e ADRs
 │   ├── code-review/SKILL.md       # Inspeção crítica de PRs e código alterado
 │   ├── clean-code/SKILL.md        # Nomenclatura, SLAP e Guard Clauses
-│   ├── solid/SKILL.md             # Auditoria pragmática de SRP, OCP, LSP, ISP, DIP
+│   ├── solid/SKILL.md             # Auditoria de SRP, OCP, LSP, ISP, DIP
 │   ├── security/SKILL.md          # Auditoria SAST orientada a OWASP Top 10
-│   └── testing/SKILL.md           # Qualidade, determinismo e cobertura semântica
+│   ├── testing/SKILL.md           # Qualidade, determinismo e cobertura semântica
+│   ├── database/SKILL.md          # Modelagem relacional/NoSQL, índices e N+1
+│   ├── devops/SKILL.md            # CI/CD, IaC, 12-factor e observabilidade
+│   ├── design-patterns/SKILL.md   # Padrões GoF e combate à patternitis
+│   ├── performance/SKILL.md       # Análise O(n), vazamentos e concorrência
+│   ├── java-spring/SKILL.md       # Spring Boot, JPA, @Transactional e IoC
+│   ├── angular/SKILL.md           # Standalone Components, Signals e RxJS
+│   ├── react/SKILL.md             # Hooks, dependências, imutabilidade e memo
+│   ├── docker/SKILL.md            # Multi-stage builds, non-root e .dockerignore
+│   └── aws/SKILL.md               # Well-Architected, IAM menor privilégio e S3
 │
-├── WORKFLOWS/                     # Protocolos de Execução
+├── WORKFLOWS/                     # Protocolos de Execução Detalhados
+│   ├── README.md                  # Guia completo de execução e parâmetros
 │   ├── analyze.md                 # Investigação técnica sob demanda (/analyze)
 │   ├── architect.md               # Modelagem de arquitetura e ADR (/architect)
 │   ├── sdd.md                     # Auditoria de conformidade de requisitos (/sdd)
@@ -132,47 +180,26 @@ software-engineering-agent/
 
 ---
 
-## 4. Integração com Obsidian (`descomplicaAI`)
-
-O diretório `BRAIN/` está mapeado diretamente ao seu cofre do Obsidian através de uma Junção NTFS de Diretório:
-`software-engineering-agent\BRAIN` $\Longleftrightarrow$ `C:\Users\mario\descomplicaAI\descompliaAI`
-
-### Recursos Nativos do Obsidian Utilizados:
-1. **Frontmatter YAML Estrito**: Permite filtros avançados via plugins como Dataview ou busca por propriedades nativas do Obsidian.
-2. **Graph View (Grafo de Conhecimento)**: Relações expressas com links bidirecionais `[[nota]]` geram um mapa visual vivo de como ADRs, requisitos e lições se conectam.
-3. **Ciclo em Três Estágios**:
-   * O agente registra descobertas em `99-INBOX/` com `status: candidate`.
-   * Você revisa e valida no Obsidian mudando para `status: validated`.
-   * Padrões corporativos são consolidados nas pastas de domínio com `status: standard`.
-
----
-
 ## 5. Como Operar com Gemini CLI (`agy`)
 
 ### Exemplo 1: Auditoria Completa de um Projeto
-No terminal do projeto ou via comando do agente:
 ```bash
-# Executa a auditoria completa de 15 etapas (estritamente read-only)
-Execute o workflow /audit sobre o projeto no caminho C:/Users/mario/.../meu-projeto
+Execute o workflow /audit no projeto C:/Projetos/meu-sistema
 ```
 
 ### Exemplo 2: Validação de Especificação (SDD)
 ```bash
-# Valida se a implementação cumpre os requisitos
-Execute o workflow /sdd validando a especificação SPEC-001 contra o pacote com.app.billing
+Execute o workflow /sdd validando a especificação SPEC-001 contra a classe BillingService.java
 ```
 
-### Exemplo 3: Revisão de Pull Request / Alteração
+### Exemplo 3: Revisão de Pull Request
 ```bash
-# Revisa um trecho ou diff recente
-Execute o workflow /review nos arquivos alterados
+Execute o workflow /review nos arquivos alterados recentemente
 ```
 
 ---
 
 ## 6. Portões de Qualidade (Quality Gates)
-
-O veredito final é calculado matematicamente:
 
 | Veredito | Condição | Ação de Governança |
 | :---: | :--- | :--- |
