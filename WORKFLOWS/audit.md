@@ -30,7 +30,7 @@ Executar a auditoria técnica exaustiva de um repositório, projeto ou sistema d
 
 ---
 
-## 4. As 15 Etapas Sequenciais da Auditoria
+## 4. Sequência de Análise (As 15 Etapas da Auditoria)
 
 ```mermaid
 flowchart TD
