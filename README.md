@@ -87,6 +87,21 @@ Execute o script correspondente ao seu sistema operacional:
 
 O script cria uma junção NTFS / link simbólico conectando `BRAIN/` ao seu cofre sem duplicar arquivos.
 
+### Passo 3: Registrar as Skills Nativas (Slash Commands)
+Para habilitar comandos diretos (`/audit`, `/sdd`, `/architect`, etc.) no Gemini CLI / Antigravity em qualquer pasta do seu computador:
+
+* **No Windows (PowerShell):**
+  ```powershell
+  .\scripts\install-skills.ps1
+  ```
+* **No Linux / macOS (Bash):**
+  ```bash
+  chmod +x ./scripts/install-skills.sh
+  ./scripts/install-skills.sh
+  ```
+
+O script instala as definições de skills em `~/.gemini/config/skills/`, ativando progressive disclosure e autocompletion nativo no CLI.
+
 ---
 
 ## 4. Estrutura de Diretórios
@@ -96,12 +111,23 @@ software-engineering-agent/
 │
 ├── README.md                      # Este manual executivo
 ├── AGENT.md                       # Ponto de entrada do Agent Core
+├── AGENTS.md                      # Guardrails de segurança e contenção do agente
+├── SECURITY.md                    # Política de segurança e reporte de vulnerabilidades
 ├── SELF-AUDIT-REPORT.md           # Relatório de autovalidação da infraestrutura
 ├── .env.example                   # Modelo de parametrização dinâmica
 │
+├── .agents/                       # Customizações nativas para Gemini CLI / Antigravity
+│   └── skills/                    # 9 Skills nativas com progressive disclosure (/audit, /sdd, etc.)
+│
+├── .github/                       # Governança e CI/CD no GitHub
+│   ├── CODEOWNERS                 # Propriedade de código e revisão mandatória
+│   └── workflows/security.yml     # Varredura contínua de segredos (Gitleaks) e scripts
+│
 ├── scripts/                       # Scripts de automação multiplataforma
 │   ├── setup-brain.ps1            # Conexão dinâmica no Windows (NTFS Junction)
-│   └── setup-brain.sh             # Conexão dinâmica no Linux/macOS (Symlink)
+│   ├── setup-brain.sh             # Conexão dinâmica no Linux/macOS (Symlink)
+│   ├── install-skills.ps1         # Instalação global de skills no Windows
+│   └── install-skills.sh          # Instalação global de skills no Linux/macOS
 │
 ├── AGENT/                         # Governança e Cognição do Agente
 │   ├── system.md                  # Identidade, papéis e princípios inegociáveis
@@ -182,19 +208,31 @@ software-engineering-agent/
 
 ## 5. Como Operar com Gemini CLI (`agy`)
 
-### Exemplo 1: Auditoria Completa de um Projeto
+Com as skills instaladas, execute diretamente via **slash command** e passe os parâmetros de forma posicional ou por contexto:
+
+### Exemplo 1: Auditoria Técnica Completa
 ```bash
-Execute o workflow /audit no projeto C:/Projetos/meu-sistema
+/audit C:/Projetos/meu-sistema
 ```
 
 ### Exemplo 2: Validação de Especificação (SDD)
 ```bash
-Execute o workflow /sdd validando a especificação SPEC-001 contra a classe BillingService.java
+/sdd SPEC-001.md PricingService.java PricingServiceTest.java
 ```
 
-### Exemplo 3: Revisão de Pull Request
+### Exemplo 3: Revisão de Pull Request / Diff
 ```bash
-Execute o workflow /review nos arquivos alterados recentemente
+/review HEAD~1
+```
+
+### Exemplo 4: Desenho Arquitetural e ADR
+```bash
+/architect "Faturamento Assíncrono" "Desacoplar emissão de cobranças com fila RabbitMQ"
+```
+
+### Exemplo 5: Diagnóstico de Desempenho e Gargalos
+```bash
+/performance C:/Projetos/meu-sistema/services
 ```
 
 ---
