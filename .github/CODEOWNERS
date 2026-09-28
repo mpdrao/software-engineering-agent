@@ -1,0 +1,18 @@
+# CODEOWNERS
+# Definição de propriedade de código para revisão obrigatória e governança.
+
+# Responsável global por todo o repositório
+* @mpdrao
+
+# Políticas de Segurança, Workflows e CI/CD
+/.github/ @mpdrao
+/SECURITY.md @mpdrao
+/QUALITY-GATES/ @mpdrao
+
+# Scripts de automação do sistema operacional
+/scripts/ @mpdrao
+
+# Arquitetura e cognição do agente
+/AGENT/ @mpdrao
+/SKILLS/ @mpdrao
+/WORKFLOWS/ @mpdrao

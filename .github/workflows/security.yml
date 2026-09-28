@@ -1,0 +1,43 @@
+name: Security & Integrity Scan
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    name: Secret & Credential Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Gitleaks Secret Scanner
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  script-integrity:
+    name: Script Syntax & Quality Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Validate Shell Scripts
+        run: |
+          if [ -d "scripts" ]; then
+            for f in scripts/*.sh; do
+              if [ -f "$f" ]; then
+                bash -n "$f"
+                echo "Validated: $f"
+              fi
+            done
+          fi
