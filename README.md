@@ -244,3 +244,11 @@ Com as skills instaladas, execute diretamente via **slash command** e passe os p
 | **`BLOCKED`** | $\text{count}(P0) > 0 \lor \text{count}(P1) > 0$ | Merge e deploy estritamente proibidos. Correção imediata necessária. |
 | **`REVIEW`** | $\text{count}(P0) = 0 \land \text{count}(P1) = 0 \land \text{count}(P2) > 0$ | Bloqueado para merge automático. Requer aprovação técnica humana. |
 | **`PASS`** | $\text{count}(P0) = 0 \land \text{count}(P1) = 0 \land \text{count}(P2) = 0$ | Aprovado para merge e deploy contínuo. |
+
+---
+
+## 7. Licença e Segurança
+
+- **Licença:** Este projeto está sob a licença [MIT](LICENSE).
+- **Segurança:** Diretrizes de segurança para agentes de IA e canal de reporte responsável documentados em [SECURITY.md](SECURITY.md).
+
